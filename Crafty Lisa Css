@@ -1,0 +1,194 @@
+main {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  color: red;
+  background-color: rgb(102, 248, 248);
+  padding: 20px 0px;
+  width: 99%;
+  position: fixed;
+  top: 0px;
+  border-radius:10px;
+}
+nav li {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 25px;
+  font-family:Helvetica, Arial;
+  padding: 0px 40px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+nav li:hover {
+  color: rgb(255, 87, 87);
+}
+
+.crafts-image {
+  width: 100%;
+  height: 625px;
+  border-radius: 10px;
+  margin-top: 1px;
+  background-size: cover;
+
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+h2 {
+font-size: 30px;
+text-align: center;
+}
+
+h3 {
+font-size: 20px;
+margin-top: 5px;
+}
+
+h1, h2, h3, li {
+  text-shadow: 3px 1px 1px rgb(36, 35, 35); 
+  font-family: Verdana, Arial;
+  font-style: bold;
+  color: violet;
+}
+
+.wooden-brush1, .wooden-brush2,  .wooden-brush3 {
+  width: 288px;
+  height: 288px;
+  border: 1px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.wooden-brush1 {
+margin-left: 12px;
+}
+
+.wooden-brush2 {
+  margin-left: 180px;
+}
+.wooden-brush3 {
+  margin-left: 120px;
+}
+
+.paint-container {
+  text-align: center; /* Ensures inline-block elements align in a row */
+  width: 100%;
+}
+
+
+.brush-discription1, .brush-discription2, .brush-discription3 {
+  border: solid 1px black;
+  border-radius: 60px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 23.4%;
+  padding:4px 8px;
+  line-height: 22px;
+  display: inline-block;
+  padding-bottom: 18px;
+  background-image: linear-gradient(65deg, violet, rgb(81, 2, 81));
+  text-decoration: none;
+}
+
+.brush-discription2 {
+  margin-left: 145px;
+}
+
+.brush-discription3 {
+  margin-left: 133px;
+}
+
+
+.main-div {
+  background-color: rgb(215, 199, 181);
+  border-radius: 50%;
+  margin-right:320px;
+  margin-left:320px;
+}
+
+.brush-div, .paint-div {
+  margin: 30px 0px;
+  background-color:rgb(114, 184, 250);
+  padding: 1px 1px;
+  border-radius: 30px;
+  width: 100%;
+  background-image: linear-gradient(85deg, rgb(73, 3, 179), rgb(8, 129, 215));
+  text-align:center;
+  vertical-align: top;
+}
+
+.paint-div {
+  display: block;
+  justify-content: center;
+  gap: 15px;
+  white-space: nowrap;
+}
+
+
+.paint1, .paint2, .paint3 {
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.paint2 { 
+  margin-left: 35px;
+}
+
+.paint3 {
+  margin-left: 35px; 
+}
+
+
+.paint-discription1, .paint-discription2, .paint-discription3 {
+  border: solid 1px black;
+  border-radius: 60px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  display:inline-block !important;
+  width: 23.5%;
+  padding:4px 8px;
+  line-height: 22px;
+  padding-bottom: 18px;
+  background-image: linear-gradient(65deg, violet, rgb(81, 2, 81));
+  text-decoration: none;
+  margin: 0px 5px;
+  vertical-align: top;
+}
+
+.paint-discription1 p, 
+.paint-discription2 p, 
+.paint-discription3 p {
+  display: inline-block;
+}
+
+.paint-description-container {
+  text-align: center;
+  width: 100%;
+}
+
+.paint-discription1 {
+  margin-top: 24px;
+  margin-right: 120px;
+  padding: 20px 4px;
+}
+.paint-discription2 {
+  margin-top: 24px;
+ margin-right: 120px;
+ padding: 20px 4px;
+}
+.paint-discription3 {
+  margin-top: 24px;
+  margin-right: 24px;
+  padding: 20px 4px;
+}
