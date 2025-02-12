@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Crafty Lisa's Arts & Craft</title>
+  <meta name="viewpoint" content="width=device-width,initial-scale=1.0"/>
+  <link href="/css/Project.css" rel="stylesheet" type="text/css"/> 
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Resources</li>
+      <li>Our Products</li>
+      <li>Our Catalogue</li>
+      <li>About Us</li>
+    </ul>
+  </nav>
+<main>
+  <div class="main-div">
+     <h1>Crafty Lisa's Arts & Craft</h1>
+  </div>
+  <img class="crafts-image" src="/Resources/Lets-get-crafty.png" alt="An image of tools which includes, rulers, a glue gun, tiny ornaments. In the center lies the words lets get crafty"/>
+  <h2>Poptular Items</h2>
+  <div class="brush-div">
+   <h3>Brushes</h3> 
+  </div>
+  <img class="wooden-brush1" src="./Resources/brushes 1.jpg" alt="An image of thirteen circular dark brown wooden paint brushes, ranging from small to large."/>
+  <img class="wooden-brush2" src="./Resources/brushes 2.jpg" alt="An image of thirteen circular light brown wooden paint brushes, ranging from small to large."/>
+  <img class="wooden-brush3" src="./Resources/brushes 3.jpg" alt="An image of three nude colored brushes with a dark metal fishish towards the tip of the brushes."/>
+  <div class="brush-discription1">
+     ERGONOMIC LONG HANDLES - Well Balanced And Comfortabl, Polished Birch Wood With A Feel Of Luxury. The long handles have a luxurious feel and are easy and delightful to use. Secure Ferrules are made from <strong>high grade brass, </strong>ensuring no hair loss or stray hairs that may spoil your painting.
+    $13.99
+  </p>
+  </div>
+  <div class="brush-discription2">
+    <p class="up">
+      A BETTER CHOICE FOR YOUR BUCK – With an amazing variety at your disposal, Bomega Artist Brush 13 piece paint brush set is one you shouldn't be without. Enjoy premium nylon bristles that paint like a dream, no matter what medium you choose. From Acrylic, to watercolor, and everything in between!
+      $13.99
+  </p> 
+  </div>
+  <div class="brush-discription3">
+    <p>
+    Crafted from high-quality materials, these fan-shaped paintbrushes feature durable wooden handles with a smooth finish that resists bending. The nylon bristles are wear-resistant, lightweight, and maintain their shape over time. These features ensure that your brushes will last longer, providing consistent performance.
+    $15.99
+  </p> 
+  </div> 
+  <div class="paint-div">
+ <h3>Paint</h3> 
+  </div>
+  <img class="paint1" src="./Resources/paint1.jpg" alt="An image of silver, green, black, red, blue, brown, bonze and gold matallic paint dropping down a canvis."/>
+  <img class="paint2" src="./Resources/paint 2.jpg" alt="A  beautiful varity of paint buckets with a paint brush on top"/>
+  <img class="paint3" src="./Resources/paint 3.jpg" alt="Eight bottles of midnight glo paint. They seem to glo in the dark"/>
+  <div class="paint-container">
+    <div class="paint-discription1">
+    <p>
+    A Beautiful Array Of Craft Metallic Paint. This Set includes 8 vibrant colors (Gold, Silver, Bronze, Copper, Black, Green, Red, Blue) in 20ml pots, designed for both amateur and professional use. $15.00
+  </p>
+  </div>
+    <div class="paint-discription2">
+      <p>
+    Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Microbinds to canvas, increasing the finish and longevity of any artwork. Starting at $5.00
+  </p>
+    </div>
+    <div class="paint-discription3">
+      <p>
+    TOP PREMIUM QUALITY! Your Purchase will come with 8 Vibrant Neon Fluorescent Colors Which Include; Pink, Red, Orange, Yellow, Green, Blue, Purple & White! Each Color Comes in a .75 oz Bottle. $20.00
+  </p>
+    </div>
+  </div>
+  <h3>Tagua seeds</h3>
+  
+  <p></p>
+
+  <p>
+    Elevate your jewelry creations with our exquisite Handmade Tagua Nut Beads from Ecuador. These vibrant, 2-2.5cm beads are crafted with care, adding an eco-friendly and unique touch to your designs. Perfect for small, medium, or wholesale buyers, our Tagua beads are your ticket to distinctive, resellable jewelry. 22 cents per gram.
+  </p>
+
+  <p>
+    Violet Tagua Half Moon (3),craft supplies,jewelry supplies,handmade beads,ecofriendly beads, tagua beads,pendant, tagua earrings,
+  </p>
+</main>
+</body>
+</html>
