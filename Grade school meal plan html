@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Grade School Meal Plan</title>
+    <link rel="stylesheet" type="text/css" href="./mealplan.css"/>
+  </head>
+  <body>
+    <h1>Grade School Daily Meal Plan</h1>
+    <table class="table-content">
+      <thead>
+        <tr>
+        <th class="day">Day(s):</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td class="break">Break:</td>
+        <td>Apples And Banana</td>
+        <td>Whole Grain Peanut Butter Sandwich And Oranges</td>
+        <td>Boiled Eggs And Peach</td>
+        <td>Grapes And Pears</td>
+        <td>Chocolate or Vanilla Milk and Cake</td>
+      </tr>
+      <tr>
+        <td class="lunch">Lunch:</td>
+        <td>Bottle Water And Soup</td>
+        <td>Bottle Water And Brown Rice, Chicken And Vegetables Bowl</td>
+        <td>Bottle Water And Meat And Vegetables</td>
+        <td>Bottle Water And Sweet Potatoes, Vegetables And Steak Bowl</td>
+        <td>Fruit Smoothie And Flatbread Pizza On A Cauliflower Crust</td>
+      </tr>
+      <tr>
+        <td class="break2">Break:</td>
+        <td>Yogurt</td>
+        <td>Trail Mix Or fruit</td>
+        <td>Oat Meal Energy Ball</td>
+        <td>Ant Logs</td>
+        <td>Popcorn</td>
+      </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
