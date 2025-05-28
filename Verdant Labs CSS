@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(34, 139, 34);
+  font-family: 'roboto', Arial, sans-serif;
+  color: rgb(219, 188, 117);
+  text-align: center;
+  opacity: 0.95;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: rgb(224, 202, 163);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+
+/* Nav, logo, moto and title */
+
+h1 {
+font-size: 2.5rem;
+text-shadow: 1px 1px 4px;
+}
+
+header {
+  padding: 20px 0px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+/* logo flex container */
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-container img {
+  height: 40px;
+  margin: -15px;
+  padding: 0px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  transform: translateX(-40%);
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 12px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+  .moto {
+    font-size: 1.25rem;
+  }
+
+a:hover  {
+  color:seashell;
+}
+
+/* Mission statement section */
+
+.background-img {
+  background-image: url("https://img.freepik.com/premium-photo/nature-meets-technology-tree-poised-atop-electromechanical-circuit-board-symbolizing-fusion-organic-life-innovation_875722-23005.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 3;
+}
+
+.banner {
+  background-color: rgb(34, 139, 34);
+  z-index: 1;
+  padding: 20px 0px;
+}
+
+.mission {
+  padding-top: 270px;
+  font-size: 1.75rem;
+  color: rgb(224, 202, 163);
+}
+
+/* Portfolio/ products section*/
+.production-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.product-card {
+  background-color: rgb(51, 51, 51);
+  border-radius: 16px;
+  padding: 20px;
+  max-width: 1100px;
+  margin: 20px auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.prodtuct-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.product-img {
+  height: 300px;
+  width: 400px;
+  max-width: 400px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 45px;
+}
+
+.product-card p {
+  font-size: 1.25rem;
+  font-family: 'Poppins', 'Ariel';
+  margin-top: 10px;
+}
+
+.product-section h2 {
+  font-size: 1.85rem;
+  font-family: 'Poppins', 'Ariel';
+  margin-top: 5px;
+}
+
+/* Team portfolio section */
+
+.team-section {
+  padding: 2px 2px;
+  text-align: center;
+  border-radius: 16px;
+  max-width: 1100px;
+  margin: auto;
+  background-color: rgb(0, 0, 139);
+}
+
+.team-container {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.team-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.team-card {
+  border-radius: 16px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  background-color: rgb(0, 0, 139);
+  height: 500px;
+}
+.team-profile {
+  padding: 30px 20px;
+  margin: 10px auto;
+  box-shadow: 2px 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+
+.portfolio-img {
+  height: 300px;
+  width: 300px;
+  max-width: 400px;
+  object-fit: cover;
+  box-shadow: 2px 8px 18px rgb(0, 0, 139, 0.1);
+  border-radius: 16px;
+}
+
+.team-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.85rem;
+  margin: 0 auto;
+}
+
+/* footer layout */
+
+.footer-banner {
+  padding: 20px 0px;
+  background-color: rgb(0, 0, 0, 0.1);
+  margin-top: 12px;
+}
+
+/* wrapper */
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* address and location */
+
+.address {
+  display: flex;
+  justify-content: center;
+}
+
+/* social media icons */
+.icon-wrapper {
+  display: inline-flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+i {
+  padding: 0px 10px;
+}
+
+.icon-wrapper i:nth-child(1) {
+  color: #4867AA;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.icon-wrapper i:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.icon-wrapper i:nth-child(2) {
+  color: #1DA1F2;
+  cursor: pointer;
+  text-shadow: 0px, 7px, 10px, rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.icon-wrapper i:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px, 7px, 10px, rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.icon-wrapper i:nth-child(3) {
+  color:#444;
+  cursor: pointer;
+  text-shadow: 0px, 7px, 10px, rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.icon-wrapper i:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px, 7px, 10px, rgba(0, 0, 0, 0.3);
+  transform: translate(0,-8);
+}
+
+.icon-wrapper i:nth-child(4){
+  color: #fffc00;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.icon-wrapper i:nth-child(4):hover {
+  margin-top: -10px;
+  text-shadow: 0px, 7px, 10px, rgba(0, 0, 0, 0.3);
+  transform: translate(0,-8);
+}
+
+/* Back to top btn */
+
+.top {
+  border: 1px solid gray;
+  border-radius: 16px;
+  background-color: rgb(202, 154, 43);
+  color: seashell;
+  padding: 12px 3px;
+}
+
+
+.sticky-button {
+  position: sticky;
+  bottom: 1px;
+  display: flex;
+  justify-content: flex-end;
+}
