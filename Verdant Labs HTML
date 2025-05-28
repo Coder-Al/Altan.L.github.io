@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Verdant Labs LTD</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/VerdantLabs.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!-- Header, Navagation, Title and Logo section -->
+     <div id="Home"></div>
+
+    <header>
+      <div class="header-flex">
+        <div class="logo-container">
+          <img src="../Resources/newtech.PNG" alt="Company logo"/>
+            </div>
+
+            <nav class="nav-links">
+              <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Mission Statement">Mission Statement</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Our Team">Our Team</a></li>
+                <li><a href="#About">About</a></li>
+              </ul>
+            </nav>
+        </div>
+
+      <div id="Top"></div>
+      <h1>Verdant Labs</h1>
+      <span class="moto">
+        <p>Where Technology And Nature Grow Together.</p>
+      </span>
+    </header>
+  <!-- Mission statement -->
+    <section id="Mission Statement"> 
+      <div class="background-img">
+        <div class="mission">
+          <div class="banner">
+          <p> At Verdant Labs, we believe technology should harmonize with nature — not compete with it. That's why we design smart home solutions built with recycled materials, powered by renewable energy, and crafted to reduce your environmental footprint. Together, we can live cleaner, smarter, and greener.
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our portfolio -->
+    <div>
+    <section class="product-section" id="Portfolio">
+      <h2>Our Eco-Dream Products</h2>
+      
+      <div class="product-card">
+        <div class="product-images">
+        <img src=https://www.ecomasteryproject.com/wp-content/uploads/2024/01/optimize_energy_usage_with_smart_thermostat.jpg class="product-img" alt="A black round digital thermostat"/>
+        <img src="https://www.ecomasteryproject.com/wp-content/uploads/2024/01/maximizing_home_heating_efficiency.jpg" class="product-img" alt="A tablet like thermostat on a desk displaying a warm fire"/>
+        <p> <strong>EcoTherm:</strong> A smart thermostat made from recycled aluminum & glass, optimized for solar-powered systems.   
+        </p>
+      </div>
+  
+      <div class="product-card">
+        <div class="product-images">
+          <img src="https://pixy.org/src/540/5404247.jpg" alt="A bronze trapazodial air-purifier" class="product-img"/>
+          <img src="https://learnmetrics.com/wp-content/uploads/5-stage-filtration-system-with-h13-hepa-filter-that-has-medical-grade-quality.jpg" alt="A white cube air-purifier" class="product-img"/>
+          <p><strong>GreenAir:</strong> Solar-powered air purifiers with living moss filters and low-energy fans.</p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-images">
+          <img src="https://m.media-amazon.com/images/I/41y0eZpwVrL._AC_.jpg" alt="A white compost bin diaplying what items are compostable" class="product-img"/> 
+          <img src="https://m.media-amazon.com/images/I/41n-MYSlVyL._AC_.jpg" alt="A black compost bin displaying compostable items and app intergration" class="product-img"/>
+       <p>
+        <strong>SmartBin:</strong> Compost-monitoring smart bin that uses sensors to tell when it's ready and suggests optimal composting mixes.
+      </p>
+        </div>
+       </div> 
+
+      <div class="product-card">
+        <div class="product-images">
+          <img src="https://img.freepik.com/premium-photo/modern-house-adorned-with-sleek-solar-panels-embracing-renewable-energy_969707-5998.jpg" alt="An array of black solar pannels on the roof top" class="product-img"/>
+          <img src="https://img.freepik.com/premium-photo/solar-panel-balcony-apartment-building-green-city-modern-balcony-with-solar-panels-energy_446232-2500.jpg" alt="Two black solor pannels on the balcony" class="product-img"/>
+        <p>
+          <strong>SunLite Panels:</strong> Sleek modular solar panels designed for apartments and homes with minimal surface space.
+        </p>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-images">
+          <img src="https://www.renkeer.com/wp-content/uploads/2021/06/soil-npk-meter.jpg" alt="A black digital soil monitor" class="product-img"/>
+          <img src="https://www.lawntractorco.com/cdn/shop/products/smartplantmonitor4_83580938-a20b-49bd-a9b1-e7811196a32a_large.jpg?v=1598617309" alt="Soil senstor with app intergration" class="product-img"/>
+        <p><strong>RootSense:</strong>Plant sensors (made from recycled e-waste plastic) that monitor moisture, sunlight, and soil nutrients.</p>
+        </div>
+      </div>
+    </section>
+          <!-- Our Team -->
+    <section class="team-section" id="Our Team">
+      <div class="team-container">
+        <h2>Our Team</h2>
+          </div>
+
+      <div class="team-cards-wrapper">
+        <div class="team-card">
+          <div class="team-profile">
+            <img src="https://img.freepik.com/premium-vector/environmental-engineer_1095437-328.jpg" alt="An enviromental engineer only a wrench" class="portfolio-img"/>
+            <div class="team-text">
+              <h3>Javin Lin</h3>
+              <p>Founder & Green Engineer
+                 Background in environmental design and IoT systems. Leads product development using sustainable materials.
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="team-profile">
+          <img src="https://img.freepik.com/premium-photo/smiling-solar-engineer-with-solar-panels-animated-style_804788-3519.jpg" alt="A solar engineer standing in front of solar pannels" class="portfolio-img"/>
+          <div class="team-text">
+          <h3>Leo Park</h3>
+          <p>
+            Head of Tech Innovation
+            Built early solar integration tools. Passionate about AI, sensors, and open-source eco tech.
+          </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="team-profile">
+        <img src="https://unblast.com/wp-content/uploads/2020/09/Women-Architect-Vector-Illustration-1536x1382.jpg" alt="An architech standing in front of her blueprint" class="portfolio-img"/>
+          <div>
+            <h3>Maya Rivera</h3>
+            <p>
+              Sustainability Architect
+              Specialist in circular design — ensuring all products are recyclable, repairable, and ethically sourced.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section>
+      <footer class="footer-banner" id="About">
+        <div>
+          <div class="content-wrapper">
+            <h3>Head Office</h3>
+            <h3>Social Media</h3>
+          </div>
+
+          <div class="address">
+            <p>34 Futurity Gate #7, Concord, ON L4K 1S6</p>
+          </div>
+
+          <div class="icon-wrapper">
+            <i class="fa fa-5x fa-facebook-square"></i>
+            <i class="fa fa-5x fa-twitter-square"></i>
+            <i class="fa fa-5x fa-github-square"></i>
+            <i class="fa fa-5x fa-snapchat-square"></i>
+          </div>
+
+        <div>
+          <h5>Contact information</h5> 
+          <p>introduction@Verdant_Labs.investors</p>
+          <p>555-867-5309</p>
+        </div>
+      </div>
+
+      <div>
+        <p>copyright Verdant Labs Enterprises 2020</p>
+      </div>
+
+      </footer>
+      </section>
+      <!-- sticky button -->
+      <div id="Top"></div>
+      <div class="sticky-button"> 
+      <a id="Top"><button class="top">Back To Top</button></a>
+      </div>
+    </div>
+  </body>
+</html>
